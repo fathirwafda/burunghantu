@@ -1,9 +1,12 @@
 const seleniumServer = require('selenium-server');
 const chromedriver = require('chromedriver');
-const geckodriver = require('geckodriver');
 
 require('nightwatch-cucumber')({
-  cucumberArgs: ['--require', 'step_definitions','--format', 'node_modules/cucumber-pretty', '--format', 'json:reports/cucumber.json', 'features']
+  cucumberArgs: [
+    '--require', 'step_definitions',
+    '--format', 'node_modules/cucumber-pretty',
+    '--format', 'json:reports/cucumber.json',
+    'features']
 });
 
 module.exports = {
@@ -25,16 +28,7 @@ module.exports = {
       selenium_host: '127.0.0.1',
       desiredCapabilities: {
         browserName: 'chrome',
-        javascriptEnabled: true,
-        acceptSslCerts: true,
-        chromeOptions: {
-          args: ['incognito', 'headless', 'no-sandbox', 'disable-gpu']
-        }
-      },
-      selenium: {
-        cli_args: {
-          'webdriver.chrome.driver': chromedriver.path
-        }
+        javascriptEnabled: true
       }
     },
     chrome: {
@@ -46,18 +40,6 @@ module.exports = {
       selenium: {
         cli_args: {
           'webdriver.chrome.driver': chromedriver.path
-        }
-      }
-    },
-    firefox: {
-      desiredCapabilities: {
-        browserName: 'firefox',
-        javascriptEnabled: true,
-        marionette: true
-      },
-      selenium: {
-        cli_args: {
-          'webdriver.gecko.driver': geckodriver.path
         }
       }
     }

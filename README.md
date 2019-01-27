@@ -19,3 +19,9 @@ ntl
 [If prefer using tags]:
 npm run e2e-test -- --tag test 
 ```
+
+## Troubleshooting
+-If you already have chromedriver installed (via Homebrew, for example)     
+-then you may see an error when installing chromedriver with `npm install`. You can point
+`webdriver.chrome.driver` in the config file to your chromedriver path (**/usr/local/bin/chromedriver**).
+Make sure to comment out `const chromedriver = require('chromedriver');`    if you do this.
