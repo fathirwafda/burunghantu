@@ -1,12 +1,12 @@
 # nightwatch-cucumber-example
-Example for [`nightwatch-cucumber`](https://github.com/mucsi96/nightwatch-cucumber) usage
-
+Special credits for [`nightwatch-cucumber`](https://github.com/mucsi96/nightwatch-cucumber)
 ## Usage
+
 
 ```
 npm i -g ntl
-git clone git@github.com:mucsi96/nightwatch-cucumber-example.git
-cd nightwatch-cucumber-example
+git clone git@github.com:fathirwafda/pirate-ship.git
+cd pirate-ship
 npm i
 ntl
 ```
