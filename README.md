@@ -13,6 +13,9 @@ npm i
 ```
 Execute the test
 ```
-ntl [If prefer using npm task list] 
-npm run e2e-test -- --tag test [If prefer using tags]
+[If prefer using npm task list]:
+ntl 
+
+[If prefer using tags]:
+npm run e2e-test -- --tag test 
 ```
