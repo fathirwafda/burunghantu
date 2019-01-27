@@ -9,7 +9,6 @@ npm i -g ntl
 git clone git@github.com:fathirwafda/pirate-ship.git
 cd pirate-ship
 npm i
-
 ```
 ### Execute the test (choose ntl or npm)
 ntl
