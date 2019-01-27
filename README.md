@@ -1,6 +1,7 @@
-# nightwatch-cucumber-example
+# Cucumber with JS
 Special credits for [`nightwatch-cucumber`](https://github.com/mucsi96/nightwatch-cucumber)
-## Usage
+## How to Use
+
 
 
 ```
