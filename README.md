@@ -10,7 +10,6 @@ git clone git@github.com:fathirwafda/pirate-ship.git
 cd pirate-ship
 npm i
 ntl
-
-# Use tag
+or run using tag
 npm run e2e-test -- --tag google
 ```
