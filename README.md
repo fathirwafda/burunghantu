@@ -3,7 +3,7 @@ Special credits for [`nightwatch-cucumber`](https://github.com/mucsi96/nightwatc
 ## How to Use
 
 
-Installation
+### Installation
 ```
 npm i -g ntl
 git clone git@github.com:fathirwafda/pirate-ship.git
@@ -11,13 +11,27 @@ cd pirate-ship
 npm i
 
 ```
-Execute the test
+### Execute the test (choose ntl or npm)
+ntl
 ```
-If prefer using npm task list:
-ntl 
+npm task list:
+ntl  -> then choose one of the tasks from the list
+```
+npm
+```
+Single feature file:
+npm run e2e-test -- features/feature_file.feature
+or
+npm run e2e-test -- features/feature_file
 
-If prefer using tags:
-npm run e2e-test -- --tag the_feature's_tag 
+Multiple feature files:
+npm run e2e-test -- features/feature1_file features/feature2_file
+
+Single scenario by its line number:
+npm run e2e-test -- features/feature1_file.feature:5
+
+Scenario tags:
+npm run e2e-test -- --tag tag_name
 ```
 
 ## Troubleshooting
