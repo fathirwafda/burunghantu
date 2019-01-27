@@ -17,7 +17,7 @@ If prefer using npm task list:
 ntl 
 
 If prefer using tags:
-npm run e2e-test -- --tag test 
+npm run e2e-test -- --tag the_feature's_tag 
 ```
 
 ## Troubleshooting
