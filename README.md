@@ -3,7 +3,7 @@ Special credits for [`nightwatch-cucumber`](https://github.com/mucsi96/nightwatc
 ## How to Use
 
 
-
+Installation
 ```
 npm i -g ntl
 git clone git@github.com:fathirwafda/pirate-ship.git
