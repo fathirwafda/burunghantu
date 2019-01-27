@@ -9,7 +9,6 @@
     "e2e-test:firefox": "npm run e2e-test -- --env firefox",
     "debug": "node --inspect-brk node_modules/.bin/nightwatch --env chrome"
   },
-  "author": "Igor Mucsicska <mucsi_96@yahoo.com>",
   "license": "MIT",
   "dependencies": {
     "chromedriver": "^2.36.0",
