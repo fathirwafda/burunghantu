@@ -6,7 +6,7 @@ Given(/^I open the Modus Create labs page$/, () => {
     .url('http://labs.moduscreate.com/');
 });
 
-Then(/^the title is "([^"]*)"$/, (text) => {
+Then(/^the yahoo page appear "([^"]*)"$/, (text) => {
   return client.assert.title(text);
 });
 
